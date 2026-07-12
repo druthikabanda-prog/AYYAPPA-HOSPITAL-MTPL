@@ -9,10 +9,10 @@ export default function EmergencyBar() {
           24/7 Emergency Services Available
         </div>
         <div className="flex gap-4">
-          <a href="tel:9000353462" className="flex items-center gap-1 hover:text-gray-200 transition-colors">
+          <a href="tel:+919000353462" aria-label="Call emergency number 9000353462" className="flex items-center gap-1 hover:text-gray-200 transition-colors">
             <Phone size={14} /> 9000353462
           </a>
-          <a href="tel:9951385513" className="flex items-center gap-1 hover:text-gray-200 transition-colors">
+          <a href="tel:+919951385513" aria-label="Call support number 9951385513" className="flex items-center gap-1 hover:text-gray-200 transition-colors">
             <Phone size={14} /> 9951385513
           </a>
         </div>

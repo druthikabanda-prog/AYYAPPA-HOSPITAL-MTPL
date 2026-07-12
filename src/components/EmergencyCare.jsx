@@ -25,7 +25,7 @@ export default function EmergencyCare() {
             </p>
             
             <div className="pt-4">
-              <a href="tel:9000353462" className="inline-flex justify-center items-center gap-2 bg-white text-emergency-red px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <a href="tel:+919000353462" aria-label="Call Sri Ayyappa Hospital emergency line" className="inline-flex justify-center items-center gap-2 bg-white text-emergency-red px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 <Phone size={24} /> Call Emergency Now
               </a>
             </div>

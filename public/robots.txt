@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ayyappa-hospital-mtpl.vercel.app/sitemap.xml

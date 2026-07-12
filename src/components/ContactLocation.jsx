@@ -41,10 +41,10 @@ export default function ContactLocation() {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-1">Emergency & Reception</h4>
                     <div className="space-y-2 mt-2">
-                      <a href="tel:+919000353462" className="flex items-center gap-2 text-medical-blue font-medium hover:underline">
+                      <a href="tel:+919000353462" aria-label="Call 9000353462" className="flex items-center gap-2 text-medical-blue font-medium hover:underline">
                         9000353462
                       </a>
-                      <a href="tel:+919951385513" className="flex items-center gap-2 text-medical-blue font-medium hover:underline">
+                      <a href="tel:+919951385513" aria-label="Call 9951385513" className="flex items-center gap-2 text-medical-blue font-medium hover:underline">
                         9951385513
                       </a>
                     </div>
@@ -53,10 +53,10 @@ export default function ContactLocation() {
               </div>
 
               <div className="mt-8 pt-8 border-t border-gray-200 flex flex-wrap gap-4">
-                <a href="tel:+919000353462" className="bg-medical-blue text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-blue-800 transition-colors shadow-md">
+                <a href="tel:+919000353462" aria-label="Call Sri Ayyappa Hospital" className="bg-medical-blue text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-blue-800 transition-colors shadow-md">
                   <Phone size={18} /> Call Hospital
                 </a>
-                <a href="https://wa.me/919000353462" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-green-600 transition-colors shadow-md">
+                <a href="https://wa.me/919000353462" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Sri Ayyappa Hospital" className="bg-green-500 text-white px-6 py-3 rounded-lg font-medium flex items-center gap-2 hover:bg-green-600 transition-colors shadow-md">
                   <MessageCircle size={18} /> WhatsApp
                 </a>
               </div>

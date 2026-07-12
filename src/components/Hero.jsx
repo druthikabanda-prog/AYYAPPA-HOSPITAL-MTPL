@@ -13,19 +13,19 @@ export default function Hero() {
               Trusted Medical Care in Metpally
             </div>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
               Comprehensive <span className="text-medical-blue">Medical Care,</span><br/> Close to Home.
-            </h1>
+            </h2>
             
             <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
               Professional consultation, diagnosis, treatment, and emergency medical support focused on accessible and responsible patient care.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a href="#appointment" className="inline-flex justify-center items-center gap-2 bg-medical-blue text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+              <a href="#appointment" aria-label="Book an appointment with Dr. P. Rohith Yadav" className="inline-flex justify-center items-center gap-2 bg-medical-blue text-white px-8 py-4 rounded-full font-semibold hover:bg-blue-800 transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
                 <Calendar size={20} /> Book Appointment
               </a>
-              <a href="tel:+919000353462" className="inline-flex justify-center items-center gap-2 bg-white text-medical-blue border-2 border-medical-blue px-8 py-4 rounded-full font-semibold hover:bg-medical-blue/5 transition-all">
+              <a href="tel:+919000353462" aria-label="Call Sri Ayyappa Hospital" className="inline-flex justify-center items-center gap-2 bg-white text-medical-blue border-2 border-medical-blue px-8 py-4 rounded-full font-semibold hover:bg-medical-blue/5 transition-all">
                 <Phone size={20} /> Call Hospital
               </a>
             </div>
